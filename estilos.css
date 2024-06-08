@@ -1,0 +1,90 @@
+
+#body{
+    background-image:url('https://imgs.search.brave.com/rO04Sjo7TanF-i3XIY7bT0RadNFGutVtghSyj3Y0NdA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/YW5kcm80YWxsLmNv/bS9hbmRybzRhbGwv/MjAyMy8xMS9mb25k/by1kZS1wYW50YWxs/YS1hZXN0aGV0aWMt/Y2l1ZGFkLWZ1dHVy/aXN0YS5qcGc_aGVp/Z2h0PTYwMA');
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:0px;
+}
+   #header{
+    padding: 0.005%;
+    background-color: rgb(255, 255, 255);
+color: aqua;}
+
+#tituloPagina{
+color:rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+text-align: center;
+text-align: top;
+
+padding: 0%;
+margin: 0%;
+}
+
+
+
+nav{
+    background-color: rgb(0, 0, 0);
+    color: rgb(201, 247, 241);
+    padding: 0%;
+    margin:0%;
+    width: 15%;
+}
+#menuIcon {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  #TituloMenu{
+    text-align: center; 
+    color: white;
+    background-color: rgb(90, 90, 90); 
+
+    padding: 0%;
+    margin: 0%;
+    }
+  #botonMenu{
+    color: rgb(255, 255, 255);
+    background-color:  rgb(90, 90, 90); 
+    padding: 0%;
+    margin: 0%;
+  }
+  #botonMenu:hover{background-color:  rgb(39, 37, 37); }
+  #sideMenu>div {
+display: flex;
+justify-content: right;
+background-color: rgb(90, 90, 90); 
+    padding: 0.005%;
+  }
+  
+  #sideMenu {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: rgb(207, 203, 203);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  #sideMenu.active {
+    left: 0;
+  }
+  
+  #sideMenu a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  #sideMenu a:hover {
+    background-color:rgb(143, 143, 145);
+  }
+
